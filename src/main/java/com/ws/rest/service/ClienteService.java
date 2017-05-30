@@ -38,7 +38,7 @@ public class ClienteService {
 	}
 
 	@POST
-	@Path("/obterClientes")
+	@Path("/obterClientesById")
 	@Consumes({ MediaType.APPLICATION_JSON })
 	@Produces({ MediaType.APPLICATION_JSON })
 	public ClienteVO obterClientesById(Integer id) {
