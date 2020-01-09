@@ -17,6 +17,8 @@ import com.ws.rest.vo.rh.ClienteVO;
 @Path("/rh")
 public class ClienteService {
 
+	//projeto que so funciona em java 7
+	
 	@GET
 	@Path("/obterClientes")
 	@Consumes({ MediaType.APPLICATION_JSON })
